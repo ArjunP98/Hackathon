@@ -1,0 +1,91 @@
+body{
+    background-image: url("src\assets\pexels-photo-633409.jpeg");
+   
+    background-size: cover;
+    min-height: 100%;
+    min-width: 1024px;
+      
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+      
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.chatbox{
+    height:100vh;
+    width:100%;
+    
+}
+
+.chatroom-name{
+    font-weight:400;
+
+}
+
+.chatroom-last-content{
+    font-size: 12px;
+    line-height: 15px;;
+}
+
+.received-message{
+    background-color:lightgreen;
+    display:inline-block;
+    border-radius: 20px;
+    padding:10px 15px;
+
+}
+
+.time{
+    font-size:13px;
+    color:grey;
+    margin-top:3px;
+    margin-left:1px;
+
+}
+
+.sent-message{
+    background-color:cyan;
+    display:inline-block;
+    border-radius: 20px;
+    padding:10px 15px;
+
+}
+
+#chat-body{
+    overflow-y:scroll;
+    overflow-x: hidden;
+    
+}
+
+#contacts-body{
+    overflow-y:scroll;
+    overflow-x: hidden;
+
+}
+
+.fade.in {
+    opacity: 1;
+  }
+  .modal.in .modal-dialog {
+    -webkit-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  
+  .modal-backdrop .fade .in {
+    opacity: 0.5 !important;
+  }
+  
+  
+  .modal-backdrop.fade {
+      opacity: 0.5 !important;
+  }
+
+
+  body.modal-open div.modal-backdrop { 
+    z-index: 0; 
+}
