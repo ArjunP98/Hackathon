@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+
+.container-fluid{
+   
+    height: 100vh;
+   
+    
+}
+
+#carouselbackground{
+    background-color: rgb(5, 5, 10);
+}
+
+#navigationhome{
+    background-color: black;
+}
+
+#contentarea{
+    background-color: blanchedalmond;
+}
+
+#contentare1{
+    background-color: blanchedalmond;
+}
+
+#aboutus{
+    background-color:none;
+}
